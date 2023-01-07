@@ -1,23 +1,24 @@
-*{
+* {
     margin: 0px;
 }
 
-.head{
-   
-  background-image: url('images/banner/banner1.png');
-  width: 1600px;
-  height: 837px;
-  justify-content: space-between;
-  
-  
-  
+.head {
+
+    background-image: url('images/banner/banner1.png');
+    width: 1600px;
+    height: 837px;
+    justify-content: space-between;
+
+
+
 
 }
-.head-container{
+
+.head-container {
 
     display: flex;
     flex-direction: column;
-    
+
     margin: 0px 200px;
     align-items: center;
 
@@ -29,7 +30,8 @@
 
 
 }
-.header-title{
+
+.header-title {
     margin-top: 400px;
 
     font-weight: 700;
@@ -37,15 +39,17 @@
     line-height: 76px;
     text-align: center;
 
-    
+
 
 }
-.head-description{
+
+.head-description {
     text-align: center;
     margin-bottom: 20px;
 
 }
-.btn{
+
+.btn {
     width: 160px;
     height: 64px;
     left: 460px;
@@ -57,32 +61,70 @@
     border-radius: 5px;
     color: blanchedalmond;
 }
+
 /* failure section */
 
-.failure-container{
+.failure-container {
     margin-left: 50px;
     display: flex;
     gap: 100px;
 
 }
-.failure-title{
+
+.failure-title {
 
     margin-top: 350px;
     width: 400px;
     text-align: center;
 
 }
-.failure-description{
-width: 400px;
-margin-top: 30px;
-text-align: justify;
-color: #444343;
-Font size: 16px;
+
+.failure-description {
+    width: 400px;
+    margin-top: 30px;
+    text-align: justify;
+    color: #444343;
+    Font size: 16px;
 }
-.failure-list{
+
+.failure-list {
     margin-top: 10px;
     color: #444343;
     Font size: 16px;
 
+
+}
+
+
+/* plan section */
+
+.plan-container{
+    display: flex;
+    text-align: center;
+    gap: 24px;
+    margin-top: 100px;
+
+}
+.plan{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    padding: 30px;
+
+
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    padding-top: 15px;
+    }
+
+.plan-description{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    padding-top: 15px;
 
 }
