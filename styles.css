@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+}
+
+.head{
+  background-image: url('images/banner/banner1.png');
+  width: 1600px;
+  height: 837px;
+  justify-content: space-between;
+  
+  
+
+}
+.head-container{
+
+    text-align: center;
+
+}
+.header-title{
+
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+
+}
+.head-description{
+
+}
+.btn{
+    width: 160px;
+    height: 64px;
+    left: 460px;
+    top: 589px;
+    border: none;
+    font-size: 20px;
+
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: blanchedalmond;
+}
