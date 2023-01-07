@@ -3,28 +3,46 @@
 }
 
 .head{
+   
   background-image: url('images/banner/banner1.png');
   width: 1600px;
   height: 837px;
   justify-content: space-between;
   
   
+  
 
 }
 .head-container{
 
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0px 200px;
+    align-items: center;
+
+
+    width: 1600px;
+    height: 837px;
+    left: 0px;
+    top: 0px;
+
 
 }
 .header-title{
+    margin-top: 400px;
 
     font-weight: 700;
     font-size: 65px;
     line-height: 76px;
-    text-align: right;
+    text-align: center;
+
+    
 
 }
 .head-description{
+    text-align: center;
+    margin-bottom: 20px;
 
 }
 .btn{
@@ -38,4 +56,33 @@
     background: #FD6E0A;
     border-radius: 5px;
     color: blanchedalmond;
+}
+/* failure section */
+
+.failure-container{
+    margin-left: 50px;
+    display: flex;
+    gap: 100px;
+
+}
+.failure-title{
+
+    margin-top: 350px;
+    width: 400px;
+    text-align: center;
+
+}
+.failure-description{
+width: 400px;
+margin-top: 30px;
+text-align: justify;
+color: #444343;
+Font size: 16px;
+}
+.failure-list{
+    margin-top: 10px;
+    color: #444343;
+    Font size: 16px;
+
+
 }
